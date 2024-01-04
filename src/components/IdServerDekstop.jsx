@@ -57,6 +57,7 @@ const IdServer = ({ dataUser, setDataUser }) => {
       <div className="row">
         <div className="col ">
           <p className="fw-light pt-3" id="info">
+            wajib diisi ya © Riza 2023
             Untuk mengetahui User ID Anda, silakan klik menu profile dibagian
             kiri atas pada menu utama game. User ID akan terlihat dibagian bawah
             Nama Karakter Game Anda. Silakan masukkan User ID Anda untuk
