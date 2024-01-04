@@ -31,6 +31,23 @@ const Diamonds = ({ dataUser, setDataUser }) => {
           </label>
         </div>
 
+         <div className="col-6 col-sm-4 border mt-n3">
+          <input
+            type="radio"
+            id="12dm"
+            value="12"
+            name="jumlahDiamond"
+            onChange={handleChange}
+            checked={dataUser.jumlahDiamond === "5"}
+          />
+          <label
+            className="card-diamond d-flex align-items-center justify-content-center"
+            htmlFor="12dm"
+          >
+            12 Diamond
+          </label>
+        </div>     
+
         <div className="col-6 col-sm-4 mt-n3">
           <input
             type="radio"
