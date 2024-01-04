@@ -71,7 +71,7 @@ const Home = ({
     } else if (dataUser.jumlahDiamond === "1000") {
       setDataUser((dataHarga) => ({
         ...dataHarga,
-        harga: "Rp. 265.000",
+        harga: "Rp. 100",
       }));
     } else {
       setDataUser((dataHarga) => ({
