@@ -20,7 +20,7 @@ const Notelp = ({ dataUser, setDataUser }) => {
           type="text"
           className="input my-n2"
           id="email"
-          placeholder="xxxx@gmail.com"
+          placeholder="kontolgede@gmail.com"
           required
           value={dataUser.email}
           onChange={handleChange}
