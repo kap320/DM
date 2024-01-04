@@ -51,17 +51,17 @@ const Diamonds = ({ dataUser, setDataUser }) => {
         <div className="col-6 col-sm-4 mt-n3">
           <input
             type="radio"
-            id="11dm"
-            value="11"
+            id="16dm"
+            value="16"
             name="jumlahDiamond"
             onChange={handleChange}
             checked={dataUser.jumlahDiamond === "11"}
           />
           <label
             className="card-diamond d-flex align-items-center justify-content-center"
-            htmlFor="11dm"
+            htmlFor="16dm"
           >
-            11 Diamond
+            16 Diamond
           </label>
         </div>
 
