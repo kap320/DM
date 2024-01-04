@@ -31,9 +31,14 @@ const Home = ({
     if (dataUser.jumlahDiamond === "5") {
       setDataUser((dataHarga) => ({
         ...dataHarga,
-        harga: "Rp. 6.000",
+        harga: "Rp. 1.000",
       }));
-    } else if (dataUser.jumlahDiamond === "11") {
+    } else if (dataUser.jumlahDiamond === "12") {
+      setDataUser((dataHarga) => ({
+        ...dataHarga,
+        harga: "Rp. 14.000",
+      }));
+    } else if (dataUser.jumlahDiamond === "16") {
       setDataUser((dataHarga) => ({
         ...dataHarga,
         harga: "Rp. 12.000",
