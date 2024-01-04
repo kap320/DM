@@ -15,17 +15,17 @@ const Pembayaran = ({ dataUser, setDataUser }) => {
         <input
           type="radio"
           name="pembayaran"
-          id="telkomsel"
-          value="Telkomsel"
+          id="gopay"
+          value="gopay"
           onChange={handleChange}
           checked={dataUser.pembayaran === "Telkomsel"}
         />
         <div className="col">
           <label
             className="pl-3 text-start card-pmbayaran d-flex align-items-center justify-content-start position-relative"
-            htmlFor="telkomsel"
+            htmlFor="gopay"
           >
-            TELKOMSEL
+            gopay
             <p
               className="mx-n5 position-absolute top-50 start-100 translate-middle"
               style={{ width: "120px" }}
